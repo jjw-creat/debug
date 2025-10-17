@@ -1,0 +1,17 @@
+{
+    "ComSetting": {
+    },
+    "NetSetting": {
+    },
+    "binPath": "E:/QTprojects/v1/Debugv1.1/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/MiniAction",
+    "csvPath": "E:/QTprojects/v1/Debugv1.1/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/KeyFrame",
+    "debugModel": 0,
+    "interpolateTime": 20,
+    "isInterpolateTimeSet": false,
+    "isMsgLimited": false,
+    "logFormat": 10,
+    "msgLenth": 200,
+    "netWait": 10,
+    "odrPath": "E:/QTprojects/v1/Debugv1.1/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/Sequence",
+    "tabDrc": 2
+}

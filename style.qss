@@ -1,0 +1,116 @@
+/* 整体样式 */
+QWidget {
+    background-color: #f5f5f5;
+    color: #333333;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* 工具栏样式 */
+QToolBar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    spacing: 5px;
+    padding: 5px;
+    margin: 0px;
+}
+
+/* 工具按钮样式 */
+QToolButton {
+    background-color: #f0f0f0;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    padding: 8px 12px;
+    margin: 2px;
+    icon-size: 24px;
+}
+
+QToolButton:hover {
+    background-color: #e0e0e0;
+    border-color: #b0b0b0;
+}
+
+QToolButton:pressed {
+    background-color: #d0d0d0;
+    border-color: #a0a0a0;
+}
+
+QToolButton:checked {
+    background-color: #b0d0f0;
+    border-color: #90b0d0;
+}
+
+QToolButton::menu-indicator {
+    image: none;
+}
+
+QToolButton#yourSpecialButton { /* 如果有特殊按钮，可以单独设置样式 */
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+}
+
+QToolButton#yourSpecialButton:hover {
+    background-color: #3a7bc8;
+}
+
+/* 状态栏样式 */
+QStatusBar {
+    background-color: #f0f0f0;
+    border-top: 1px solid #e0e0e0;
+    padding: 5px;
+}
+
+/* 菜单栏样式 */
+QMenuBar {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+QMenuBar::item {
+    spacing: 3px;
+    padding: 2px 10px;
+}
+
+QMenuBar::item:selected {
+    background-color: #e0e0e0;
+}
+
+QMenu {
+    background-color: #f0f0f0;
+    border: 1px solid #e0e0e0;
+}
+
+QMenu::item:selected {
+    background-color: #e0e0e0;
+}
+
+/* 主窗口样式 */
+QMainWindow {
+    background-color: #f5f5f5;
+}
+
+/* 选项卡样式 */
+QTabWidget::pane {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+
+QTabBar::tab {
+    background-color: #f0f0f0;
+    border: 1px solid #e0e0e0;
+    border-bottom-color: #f0f0f0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 8px 12px;
+    margin: 0px 2px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background-color: #e0e0e0;
+    border-color: #b0b0b0;
+    border-bottom-color: #e0e0e0;
+}
+
+QTabBar::tab:!selected {
+    margin-top: 2px;
+}
